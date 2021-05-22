@@ -7,7 +7,7 @@ const ContanctItem = ({ id, name, number, onDeleteContact }) => {
       <p className={classes.ContactName}>{name}</p>
       <p className={classes.ContactNumber}>{number}</p>
       <button
-        className={classes.ContactButton}
+        className="btn float-right login_btn"
         onClick={() => onDeleteContact(id)}
       >
         Delete

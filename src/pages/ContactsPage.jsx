@@ -1,10 +1,10 @@
-import ContactsList from '../ContactsList';
-import ContactForm from '../ContactForm/';
-import Filter from '../Filter';
-import Spinner from '../Loader';
+import ContactsList from '../components/ContactsList';
+import ContactForm from '../components/ContactForm';
+import Filter from '../components/Filter';
+import Spinner from '../components/Loader';
 import { connect } from 'react-redux';
 import { useEffect } from 'react';
-import { contactsOperations, contactsSelectors } from '../../redux/contacts/';
+import { contactsOperations, contactsSelectors } from '../redux/contacts';
 
 const Phonebook = ({ isLoading, isError, fetchContacts }) => {
   // eslint-disable-next-line

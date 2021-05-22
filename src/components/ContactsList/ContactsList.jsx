@@ -6,10 +6,11 @@ import ContactItem from '../ContantItem';
 const useStyles = createUseStyles({
   ContactsList: {
     padding: '20px',
-    width: '450px',
+    width: '500px',
     border: '2px solid black',
     borderRadius: '10px',
     marginBottom: '20px',
+    backgroundColor: 'rgba(0,0,0,0.5)',
   },
 });
 

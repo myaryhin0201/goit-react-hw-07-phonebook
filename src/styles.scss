@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboro';
-  background-color: yellow;
+  color: white;
 }
 img,
 svg {
@@ -108,4 +108,184 @@ ul {
 
 a {
   text-decoration: none;
+}
+.Navlink {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.Navlink:hover {
+  border-color: #ffc312;
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.Navlink:not(:last-child) {
+  margin-right: 15px;
+}
+
+.Navlink--active {
+  background-color: #ffc312;
+  color: black;
+  &:hover,
+  &:focus {
+    background-color: white;
+    outline: none;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+.homapageTitle {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+  background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  // align-items: left;
+  height: 370px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-top: 0;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  & h3 {
+    padding: 10px;
+  }
+}
+
+.PHONEBOOK {
+  & .justify-content-center {
+    justify-content: left !important;
+  }
+  &.d-flex {
+    justify-content: left !important;
+  }
+  & .card {
+    height: auto;
+    width: 500px;
+  }
+  & form {
+    margin-top: 0;
+  }
+  & .form-group input {
+    min-width: 300px;
+  }
+  & .login_btn {
+    width: auto;
+  }
+}
+
+.card {
+  height: auto;
+}
+.login_btn {
+  margin-top: 25px;
+}
+form {
+  margin-top: 20px;
+}
+.form-control {
+  border: none;
+}
+.form-control:focus {
+  color: black;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form-group input {
+  min-height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+.input-group-prepend span {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc312;
+  width: 50px;
+  height: 50px;
+  color: black;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
 }

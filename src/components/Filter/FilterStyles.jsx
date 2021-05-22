@@ -7,7 +7,7 @@ const useStyles = createUseStyles({
     flexDirection: 'row',
     marginBottom: '20px',
     fontSize: '20px',
-    width: '450px',
+    width: '500px',
     '& input': {
       minWidth: '225px',
       border: 'none',

@@ -12,10 +12,6 @@ const useStyles = createUseStyles({
       marginBottom: '20px',
       fontSize: '35px',
       fontWeight: 'bold',
-      backgroundImage:
-        'linear-gradient(to left, violet, indigo, blue, green, black, orange, red)',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
     },
   },
 });
